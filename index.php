@@ -19,11 +19,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>discussdesk.com - Login form in PHP mysql</title>
+<title>PHP shell executor</title>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
 <link href="style.css" rel="stylesheet" type="text/css">
@@ -32,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <body>
 
 	<form name="frmregister"action="<?= $_SERVER['PHP_SELF'] ?>" method="post" >
-		<table class="form" border="0">
+		<table class="form">
 
 			<tr>
 			<td></td>
